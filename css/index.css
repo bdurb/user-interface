@@ -144,15 +144,16 @@ body {
   font-weight: 400;
   font-size: 1.6rem;
   line-height: 2.4rem;
-  margin: 0 auto;
 }
 .container {
   max-width: 855px;
+  margin: 0 auto;
 }
 .navigation {
   position: fixed;
   top: 0;
   display: flex;
+  color: #FFFFFF;
 }
 .jumbo-home {
   width: 1024px;
