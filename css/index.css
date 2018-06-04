@@ -150,10 +150,14 @@ body {
   margin: 0 auto;
 }
 .navigation {
-  position: fixed;
+  position: sticky;
   top: 0;
   display: flex;
   color: #FFFFFF;
+  border: solid red 1px;
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #9DA7B1;
 }
 .jumbo-home {
   width: 1024px;
