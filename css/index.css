@@ -188,3 +188,13 @@ body {
 .row-2 {
   margin-top: 100px;
 }
+.col-md-6 {
+  padding-right: 0;
+  padding-left: 0;
+}
+.recentp {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #222222;
+  margin-top: 100px;
+}
