@@ -177,3 +177,14 @@ body {
   position: absolute;
   bottom: 49px;
 }
+.row h1 {
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #222222;
+}
+.row-1 {
+  margin-top: 50px;
+}
+.row-2 {
+  margin-top: 100px;
+}
