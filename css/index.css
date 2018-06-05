@@ -175,13 +175,14 @@ body {
   color: #FFFFFF;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 }
 .footer h2 {
   font-size: 2.0rem;
 }
 .footer .copyright {
   display: flex;
-  align-content: center;
+  margin: 0 auto;
 }
 .jumbo-home {
   width: 1024px;
