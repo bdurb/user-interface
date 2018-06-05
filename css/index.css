@@ -153,11 +153,16 @@ body {
   position: sticky;
   top: 0;
   display: flex;
+  justify-content: space-between;
   color: #FFFFFF;
   border: solid red 1px;
   width: 1024px;
   margin: 0 auto;
   background-color: #9DA7B1;
+  padding-left: 6%;
+  padding-right: 6%;
+  padding-top: 10px;
+  align-items: center;
 }
 .jumbo-home {
   width: 1024px;
@@ -192,11 +197,15 @@ body {
   padding-right: 0;
   padding-left: 0;
 }
+.words {
+  margin-top: 50px;
+}
 .recentp {
   font-weight: bold;
   font-size: 2.8rem;
   color: #222222;
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 .img-text {
   margin: 0 15%;
