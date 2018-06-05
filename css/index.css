@@ -171,9 +171,17 @@ body {
   height: 248px;
   margin: 0 auto;
   background-color: #888888;
-  font-size: 2.0rem;
   line-height: 2.4rem;
   color: #FFFFFF;
+  display: flex;
+  align-items: center;
+}
+.footer h2 {
+  font-size: 2.0rem;
+}
+.footer .copyright {
+  display: flex;
+  align-content: center;
 }
 .jumbo-home {
   width: 1024px;
