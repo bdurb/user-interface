@@ -164,6 +164,15 @@ body {
   padding-top: 10px;
   align-items: center;
 }
+.footer {
+  width: 1024px;
+  height: 248px;
+  margin: 0 auto;
+  background-color: #888888;
+  font-size: 2.0rem;
+  line-height: 2.4rem;
+  color: #FFFFFF;
+}
 .jumbo-home {
   width: 1024px;
   height: 598px;
@@ -173,6 +182,8 @@ body {
 .jumbo-home .container {
   height: 100%;
   position: relative;
+  padding-left: 0;
+  padding-right: 0;
 }
 .jumbo-home h1 {
   font-weight: 700;
@@ -183,7 +194,7 @@ body {
   bottom: 49px;
 }
 .row h1 {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.8rem;
   color: #222222;
 }
@@ -201,13 +212,16 @@ body {
   margin-top: 50px;
 }
 .recentp {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 2.8rem;
   color: #222222;
   margin-top: 100px;
   margin-bottom: 50px;
 }
 .img-text {
-  margin: 0 15%;
+  margin: 0 25%;
   margin-bottom: 100px;
+}
+.img-text p {
+  margin-top: 50px;
 }
