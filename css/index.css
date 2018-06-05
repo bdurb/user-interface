@@ -291,3 +291,12 @@ body {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.form-group p {
+  color: #D8D8D8;
+  font-size: 1.4rem;
+}
+.we-work {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
