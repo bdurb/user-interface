@@ -269,3 +269,25 @@ body {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+.jumbo-contact {
+  width: 1024px;
+  height: 248px;
+  background: url('../img/contact/contact-jumbotron.png');
+  margin: 0 auto;
+}
+.jumbo-contact .container {
+  height: 100%;
+  position: relative;
+}
+.jumbo-contact h1 {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 7.5rem;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 17px;
+}
+.contact-row {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
