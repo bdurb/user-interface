@@ -182,8 +182,6 @@ body {
 .jumbo-home .container {
   height: 100%;
   position: relative;
-  padding-left: 0;
-  padding-right: 0;
 }
 .jumbo-home h1 {
   font-weight: 700;
@@ -192,6 +190,10 @@ body {
   color: #FFFFFF;
   position: absolute;
   bottom: 49px;
+}
+.container {
+  padding-left: 0;
+  padding-right: 0;
 }
 .row h1 {
   font-weight: 700;
