@@ -171,6 +171,44 @@ body {
   background-color: #9DA7B1;
   transition: .5s;
 }
+.overlay {
+  background: #9da7b1;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  opacity: 0.95;
+  overflow: hidden;
+  display: none;
+  z-index: 100;
+}
+.overlay .overlay-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.overlay .overlay-content nav {
+  display: flex;
+  flex-direction: column;
+}
+.overlay .overlay-content nav a {
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 8.5rem;
+  color: #FFFFFF;
+}
+.overlay .overlay-content nav a:hover {
+  color: #222222;
+}
+.overlay .close-btn {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
 .footer {
   width: 1024px;
   height: 248px;
@@ -251,44 +289,6 @@ body {
   font-weight: 700;
   font-size: 1.6rem;
   color: black;
-}
-.overlay {
-  background: #9da7b1;
-  height: 100vh;
-  width: 100vw;
-  position: fixed;
-  opacity: 0.95;
-  overflow: hidden;
-  display: none;
-  z-index: 100;
-}
-.overlay .overlay-content {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  width: 100vw;
-}
-.overlay .overlay-content nav {
-  display: flex;
-  flex-direction: column;
-}
-.overlay .overlay-content nav a {
-  margin-bottom: 30px;
-  font-weight: bold;
-  font-size: 4.8rem;
-  line-height: 8.5rem;
-  color: #FFFFFF;
-}
-.overlay .overlay-content nav a:hover {
-  color: #222222;
-}
-.overlay .close-btn {
-  width: 45px;
-  height: 45px;
-  position: absolute;
-  top: 20px;
-  right: 40px;
 }
 .jumbo-services {
   width: 100%;
