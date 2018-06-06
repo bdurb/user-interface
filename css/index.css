@@ -253,17 +253,28 @@ body {
   color: black;
 }
 .overlay {
-  background: #9DA7B1;
+  background: #9da7b1;
   height: 100vh;
   width: 100vw;
   position: fixed;
-  opacity: .95;
+  opacity: 0.95;
+  overflow: hidden;
+  display: none;
+  z-index: 100;
+}
+.overlay .overlay-content {
   display: flex;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
-  z-index: 100;
-  display: none;
+  height: 100vh;
+  width: 100vw;
+}
+.overlay .overlay-content nav {
+  display: flex;
+  flex-direction: column;
+}
+.overlay .overlay-content nav a {
+  margin-bottom: 30px;
 }
 .overlay .close-btn {
   width: 45px;
@@ -271,13 +282,6 @@ body {
   position: absolute;
   top: 20px;
   right: 40px;
-}
-nav {
-  display: flex;
-  flex-direction: column;
-}
-nav a {
-  margin-bottom: 30px;
 }
 .jumbo-services {
   width: 100%;
