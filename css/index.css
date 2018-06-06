@@ -275,6 +275,13 @@ body {
 }
 .overlay .overlay-content nav a {
   margin-bottom: 30px;
+  font-weight: bold;
+  font-size: 4.8rem;
+  line-height: 8.5rem;
+  color: #FFFFFF;
+}
+.overlay .overlay-content nav a:hover {
+  color: #222222;
 }
 .overlay .close-btn {
   width: 45px;
